@@ -24,4 +24,4 @@ spans = soup('span')
 for span in spans:
     span_list.append(int(span.text))
 
-print(sum(span_list))
+print(sum(span_list))   
